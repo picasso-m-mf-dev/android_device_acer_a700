@@ -1,5 +1,3 @@
-$(call inherit-product-if-exists, vendor/acer/a700/a700-vendor.mk)
-
 # USB config contains product-specific USB id
 PRODUCT_COPY_FILES += \
     device/acer/a700/prebuilt/ramdisk/init.acer.usb.rc:root/init.acer.usb.rc \

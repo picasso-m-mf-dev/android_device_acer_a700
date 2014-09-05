@@ -1,6 +1,3 @@
-# inherit from the proprietary version
--include vendor/acer/a700/BoardConfigVendor.mk
-
 TARGET_BOOTLOADER_BOARD_NAME := picasso_mf
 TARGET_OTA_ASSERT_DEVICE := picasso_mf,a700_emea_cus1
 
