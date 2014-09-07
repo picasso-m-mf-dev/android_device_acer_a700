@@ -1,6 +1,6 @@
 # USB config contains product-specific USB id
 PRODUCT_COPY_FILES += \
-    device/acer/a700/prebuilt/ramdisk/init.acer.usb.rc:root/init.acer.usb.rc \
+    device/acer/a700/prebuilt/ramdisk/init.acer.usb.rc:root/init.acer.usb.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240
